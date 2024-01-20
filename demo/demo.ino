@@ -89,20 +89,21 @@ void loop() {
     }
     else {
         digitalWrite(E, LOW);
-    
+    }
     // Для left_sensor 
    	if (i == 2 && distanceSm < 200) {
       digitalWrite(W, HIGH);
     }
     else {
         digitalWrite(W, LOW);
-      
+    } 
     // Для back_sensor 
    	if (i == 3 && distanceSm < 200) {
       digitalWrite(S, HIGH);
     }
     else {
         digitalWrite(S, LOW);
+    }
     
    	// Для up_sensor 
    	if (i == 4 && distanceSm < 200) {
